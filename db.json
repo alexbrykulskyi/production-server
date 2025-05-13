@@ -1,0 +1,421 @@
+{
+  "notifications": [
+    {
+      "id": "1",
+      "title": "Новий коментар",
+      "description": "Користувач залишив коментар до вашого запису.",
+      "userId": "1"
+    },
+    {
+      "id": "2",
+      "title": "Запит на доступ",
+      "description": "Вам надійшов запит на доступ до панелі адміністратора.",
+      "userId": "1",
+      "href": "http://localhost:3000/admin"
+    },
+    {
+      "id": "3",
+      "title": "Оновлення системи",
+      "description": "Доступне нове оновлення для адміністративної панелі.",
+      "userId": "1",
+      "href": "http://localhost:3000/admin"
+    },
+    {
+      "id": "4",
+      "title": "Новий відгук",
+      "description": "Ви отримали новий відгук про вашу роботу.",
+      "userId": "1"
+    },
+    {
+      "id": "5",
+      "title": "Сповіщення про безпеку",
+      "description": "Виявлено підозрілу активність у вашому обліковому записі.",
+      "userId": "2"
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "title": "json-server",
+      "userId": "1"
+    },
+    {
+      "id": "2",
+      "title": "json-server",
+      "userId": "2"
+    }
+  ],
+  "articles": [
+    {
+      "id": "1",
+      "title": "Останні новини JavaScript",
+      "subtitle": "Що нового в JS у 2024 році?",
+      "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
+      "views": 2050,
+      "createdAt": "04.02.2024",
+      "userId": "1",
+      "type": ["IT"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Вступ",
+          "paragraphs": [
+            "JavaScript – це мова програмування, яка активно використовується для розробки веб-додатків та серверних програм.",
+            "У 2024 році було представлено декілька важливих оновлень, включаючи покращену роботу з модулями та нові можливості для асинхронного програмування."
+          ]
+        },
+        {
+          "id": "2",
+          "type": "IMAGE",
+          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
+          "title": "Приклад коду"
+        },
+        {
+          "id": "3",
+          "type": "CODE",
+          "code": "console.log('Привіт, світ!');"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Основи React.js",
+      "subtitle": "Як розпочати роботу з React у 2024 році?",
+      "img": "https://reactjs.org/logo-og.png",
+      "views": 1340,
+      "createdAt": "20.01.2024",
+      "userId": "1",
+      "type": ["IT"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Що таке React.js?",
+          "paragraphs": [
+            "React – це бібліотека JavaScript для створення користувацьких інтерфейсів.",
+            "Вона дозволяє ефективно оновлювати та відображати компоненти на веб-сторінці."
+          ]
+        },
+        {
+          "id": "2",
+          "type": "CODE",
+          "code": "import React from 'react';\nfunction App() {\n  return <h1>Привіт, React!</h1>;\n}\nexport default App;"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Нові можливості Node.js",
+      "subtitle": "Що змінилося у Node.js у 2024 році?",
+      "img": "https://nodejs.org/static/images/logo.svg",
+      "views": 950,
+      "createdAt": "15.01.2024",
+      "userId": "1",
+      "type": ["IT"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Огляд останніх змін",
+          "paragraphs": [
+            "Node.js отримав значні оновлення, зокрема покращену підтримку ES-модулів та нові функції API.",
+            "Це спрощує розробку серверних додатків та підвищує продуктивність."
+          ]
+        },
+        {
+          "id": "2",
+          "type": "CODE",
+          "code": "const http = require('http');\nhttp.createServer((req, res) => {\n  res.writeHead(200, { 'Content-Type': 'text/plain' });\n  res.end('Привіт, світ!');\n}).listen(3000);"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Сучасна економіка: виклики та перспективи",
+      "subtitle": "Які тенденції визначають світову економіку у 2024 році?",
+      "img": "https://www.rbcroyalbank.com/en-ca/wp-content/uploads/sites/12/2023/09/Untitled-design-2023-07-31T120240.836-1.jpg?quality=80",
+      "views": 1200,
+      "createdAt": "10.02.2024",
+      "userId": "1",
+      "type": ["ECONOMICS"],
+      "blocks": [
+        {
+          "id": "4",
+          "type": "TEXT",
+          "title": "Основні економічні тенденції",
+          "paragraphs": [
+            "У 2024 році глобальна економіка стикається з викликами інфляції, цифровізації та енергетичних криз.",
+            "Важливу роль відіграють стратегії сталого розвитку та впровадження нових технологій."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Наукові досягнення 2024 року",
+      "subtitle": "Які відкриття змінили світ цього року?",
+      "img": "https://crc.losrios.edu/shared/img/program-940-529/general-science.jpg",
+      "views": 870,
+      "createdAt": "12.02.2024",
+      "userId": "1",
+      "type": ["SCIENCE"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Прориви у науці",
+          "paragraphs": [
+            "Відкриття у галузі штучного інтелекту, медицини та космосу визначають розвиток науки у 2024 році.",
+            "Зокрема, було створено нові алгоритми машинного навчання та розроблено ефективні ліки проти рідкісних хвороб."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Наукові досягнення 2024 року",
+      "subtitle": "Які відкриття змінили світ цього року?",
+      "img": "https://crc.losrios.edu/shared/img/program-940-529/general-science.jpg",
+      "views": 870,
+      "createdAt": "12.02.2024",
+      "userId": "1",
+      "type": ["SCIENCE"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Прориви у науці",
+          "paragraphs": [
+            "Відкриття у галузі штучного інтелекту, медицини та космосу визначають розвиток науки у 2024 році.",
+            "Зокрема, було створено нові алгоритми машинного навчання та розроблено ефективні ліки проти рідкісних хвороб."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Наукові досягнення 2024 року",
+      "subtitle": "Які відкриття змінили світ цього року?",
+      "img": "https://crc.losrios.edu/shared/img/program-940-529/general-science.jpg",
+      "views": 870,
+      "createdAt": "12.02.2024",
+      "userId": "1",
+      "type": ["SCIENCE"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Прориви у науці",
+          "paragraphs": [
+            "Відкриття у галузі штучного інтелекту, медицини та космосу визначають розвиток науки у 2024 році.",
+            "Зокрема, було створено нові алгоритми машинного навчання та розроблено ефективні ліки проти рідкісних хвороб."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Наукові досягнення 2024 року",
+      "subtitle": "Які відкриття змінили світ цього року?",
+      "img": "https://crc.losrios.edu/shared/img/program-940-529/general-science.jpg",
+      "views": 870,
+      "createdAt": "12.02.2024",
+      "userId": "1",
+      "type": ["SCIENCE"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Прориви у науці",
+          "paragraphs": [
+            "Відкриття у галузі штучного інтелекту, медицини та космосу визначають розвиток науки у 2024 році.",
+            "Зокрема, було створено нові алгоритми машинного навчання та розроблено ефективні ліки проти рідкісних хвороб."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Наукові досягнення 2024 року",
+      "subtitle": "Які відкриття змінили світ цього року?",
+      "img": "https://crc.losrios.edu/shared/img/program-940-529/general-science.jpg",
+      "views": 870,
+      "createdAt": "12.02.2024",
+      "userId": "1",
+      "type": ["SCIENCE"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Прориви у науці",
+          "paragraphs": [
+            "Відкриття у галузі штучного інтелекту, медицини та космосу визначають розвиток науки у 2024 році.",
+            "Зокрема, було створено нові алгоритми машинного навчання та розроблено ефективні ліки проти рідкісних хвороб."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Наукові досягнення 2024 року",
+      "subtitle": "Які відкриття змінили світ цього року?",
+      "img": "https://crc.losrios.edu/shared/img/program-940-529/general-science.jpg",
+      "views": 870,
+      "createdAt": "12.02.2024",
+      "userId": "1",
+      "type": ["SCIENCE"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Прориви у науці",
+          "paragraphs": [
+            "Відкриття у галузі штучного інтелекту, медицини та космосу визначають розвиток науки у 2024 році.",
+            "Зокрема, було створено нові алгоритми машинного навчання та розроблено ефективні ліки проти рідкісних хвороб."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Наукові досягнення 2024 року",
+      "subtitle": "Які відкриття змінили світ цього року?",
+      "img": "https://crc.losrios.edu/shared/img/program-940-529/general-science.jpg",
+      "views": 870,
+      "createdAt": "12.02.2024",
+      "userId": "1",
+      "type": ["SCIENCE"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Прориви у науці",
+          "paragraphs": [
+            "Відкриття у галузі штучного інтелекту, медицини та космосу визначають розвиток науки у 2024 році.",
+            "Зокрема, було створено нові алгоритми машинного навчання та розроблено ефективні ліки проти рідкісних хвороб."
+          ]
+        }
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "some comment",
+      "articleId": "1",
+      "userId": "1"
+    },
+    {
+      "id": "2",
+      "text": "some comment 2",
+      "articleId": "1",
+      "userId": "1"
+    },
+    {
+      "id": "3",
+      "text": "some comment 3",
+      "articleId": "1",
+      "userId": "1"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "123",
+      "id": "4Cljjzl"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "123asfasf",
+      "id": "AEM4Dvc"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "123asfasf",
+      "id": "IFEOWl0"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "привет мир",
+      "id": "dBacYRZ"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "хехехехе",
+      "id": "rBX_C-e"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "фыафыа",
+      "id": "5k0ApX-"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "sdfsdfsd",
+      "id": "w-HDIRq"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "asdasdasd",
+      "id": "MVvGQoZ"
+    },
+    {
+      "articleId": "3",
+      "userId": "1",
+      "text": "comment 1",
+      "id": "bAs7YBE"
+    },
+    {
+      "articleId": "2",
+      "userId": "1",
+      "text": "python!!!",
+      "id": "p5rMadd"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "userName": "admin",
+      "password": "123",
+      "roles": ["ADMIN"],
+      "avatar": "https://img.freepik.com/premium-vector/ninja-with-tablet-pc-cute-cartoon-style-vector-illustration_1142-77341.jpg?semt=ais_hybrid"
+    },
+    {
+      "id": "2",
+      "userName": "caput",
+      "password": "123",
+      "roles": ["USER"]
+    }
+  ],
+  "profile": [
+    {
+      "id": "1",
+      "age": 25,
+      "currency": "UAH",
+      "country": "Ukraine",
+      "city": "Khmelnytskyi",
+      "userName": "dev",
+      "roles": ["ADMIN"],
+      "avatar": "https://img.freepik.com/premium-vector/ninja-with-tablet-pc-cute-cartoon-style-vector-illustration_1142-77341.jpg?semt=ais_hybrid",
+      "firstName": "Oleksandr",
+      "lastName": "Brykulskyi"
+    },
+    {
+      "id": "2",
+      "lastName": "Kolya",
+      "age": 465,
+      "currency": "EUR",
+      "country": "Germany",
+      "city": "Berlin",
+      "userName": "caput",
+      "roles": ["USER"]
+    }
+  ]
+}
